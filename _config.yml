@@ -1,9 +1,12 @@
 # Site Settings
 locale          : "pt-PT"
-title           : "CodeWeek"
+title           : "Code Week 2018"
 title_separator : "•"
-description     : "Aorem ipsum dolor sit amet elit sed lum tempor incididunt ut labore el dolore alg minim veniam quis nostrud ncididunt."
-logo            : logo.png
+description     : |
+  A Code Week é uma iniciativa, organizada pelo CeSIUM, com o objetivo de
+  levar literacia digital a toda a gente de uma forma divertida.
+keywords        : [CeSIUM, jekyll, Code Week, Github, Universidade do Minho, Departamento Informática]
+logo            : codeweek-logo-lightred.png
 url             : "https://codeweek.cesium.di.uminho.pt"
 baseurl         :
 
@@ -11,25 +14,30 @@ baseurl         :
 analytics:
 
 # Social
-email        :
-facebook     :
-github       :
+email        : cesium@di.uminho.pt
+facebook     : cesiuminho
+github       : cesium
 gitlab       :
 google_plus  :
-instagram    :
+instagram    : cesiuminho
 linkedin     :
-twitter      :
+twitter      : cesiuminho
 youtube      :
-
 
 # Reading Files
 encoding: "utf-8"
+include:
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
   - README.md
   - CHANGELOG.md
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
 
 # Conversion
 markdown: kramdown

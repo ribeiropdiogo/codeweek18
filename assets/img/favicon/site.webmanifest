@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8e0cba106f21b734887b972affb218ab647557c07240a7e0ad68594005ccdd78
-size 308
+{
+    "name": "Code Week",
+    "short_name": "Code Week",
+    "icons": [
+        {
+            "src": "android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#28318c",
+    "background_color": "#28318c",
+    "display": "standalone"
+}

@@ -1,4 +1,4 @@
-//About 
+//About
 .about-item{
 	padding: 10px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);
@@ -28,39 +28,30 @@
 }
 
 // Event Slides
-#event-slides{
+#coderdojo{
 	.video{
 		img{
 			border-radius: 4px;
 		}
-	}
-	.intro-desc{
-	    line-height: 26px;
-	    margin-bottom: 30px;
-	}
+  }
+  .description{
+    text-align: center;
+  }
 	.intro-title{
-		color: #212121;
+		color: $light-blue;
 		font-size: 22px;
 		font-weight: 700;
 		letter-spacing: 1px;
-		margin-bottom: 15px;
-	}
-	.list-specification{
-		li{
-			margin-bottom: 10px;
-			font-size: 15px;
-			i{
-				margin-right: 5px;
-			}
-		}
+    margin: 40px;
+    text-align: center;
 	}
 }
 // Counter Section
 .counter-section{
-    background: $preset;
+    background: $light-red;
     overflow: hidden;
     position: relative;
-    /* 
+    /*
     &:before{
     	content: '';
     	position: absolute;
@@ -97,7 +88,7 @@
 
 /* Sponsors Area */
 #sponsors{
-	background: #f3f4f3;
+	background: $dark-blue;
 	.spnsors-logo{
 		text-align: center;
 		border-radius: 4px;

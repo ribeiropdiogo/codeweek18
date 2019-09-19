@@ -130,7 +130,7 @@ ul,ol{
 .section-sub{
   text-transform: uppercase;
   font-size: 24px;
-  line-height: 52px; 
+  line-height: 52px;
   padding-bottom: 15px;
   margin-bottom: 30px;
   position: relative;
@@ -221,8 +221,8 @@ $transition: all 0.3s ease-in-out;
   position: relative;
   z-index: 1;
   &:hover{
-    color: #fff;
-    background: #F50057;
+    color: white;
+    background: $dark-red;
     box-shadow:  0 6px 22px rgba(0,0,0,0.1);
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -286,10 +286,13 @@ a.back-to-top{
 	  -moz-transition: all 0.2s ease-in-out;
 	  -webkit-transition: all 0.2s ease-in-out;
 	  -o-transition: all 0.2s ease-in-out;
-	  @include icon-shadow;
+    @include icon-shadow;
+    &:hover {
+      background: $dark-red;
+    }
 	}
 	&:hover , &:focus {
-		text-decoration: none;
+    text-decoration: none;
 	}
 }
 
@@ -428,7 +431,7 @@ a.back-to-top{
 
 //Helper Classes
 .section-padding {
-	padding: 60px 0;
+  padding: 60px 0;
 }
 .no-padding {
 	padding: 0 !important;
